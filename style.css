@@ -103,10 +103,18 @@ img {
     display: block;
 }
 
+.toggle-checkbox1:checked + .toggle-button1 img {
+    content: url('/assets/images/icon-plus.svg');
+}
+
 .toggle-checkbox2:checked + 
 .toggle-button2 + 
 .section_two_answer {
     display: block;
+}
+
+.toggle-checkbox2:checked + .toggle-button2 img {
+    content: url('/assets/images/icon-plus.svg');
 }
 
 .toggle-checkbox3:checked + 
@@ -115,10 +123,18 @@ img {
     display: block;
 }
 
+.toggle-checkbox3:checked + .toggle-button3 img {
+    content: url('/assets/images/icon-plus.svg');
+}
+
 .toggle-checkbox4:checked +
 .toggle-button4 +
 .section_four_answer{
     display: block;
+}
+
+.toggle-checkbox4:checked + .toggle-button4 img {
+    content: url('/assets/images/icon-plus.svg');
 }
 
 .attribution {
